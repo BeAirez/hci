@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+	</head>
+	<body>
+		<ul>
+			<li><a class="grey" 		href="../index.html">Home</a></li>
+			<li><a class="blue" 		href="wearables.html">Wearables</a></li>
+			<li><a class="blue" 		href="">Playful Interactions</a></li>
+			<li><a class="blue" 		href="">Artificial Creatures</a></li>
+			<li><a class="blue" 		href="">AR &#38; VR</a></li>
+			<li><a class="green active" href="arduino.html">Arduino</a></li>
+			<li><a class="green" 		href="">VR environments</a></li>
+			<li><a class="green"		href="">Computer Vision</a></li>
+			<li><a class="yellow" 		href="">Excursion</a></li>
+			<li><a class="orange" 		href="">Lab weeks</a></li>
+		</ul>
+		<div class="border">
+			<h1>Exercise 3: Blink multiple LEDs</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uGe00uDi2jI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/3c.png"/>
+			<h2>Uitleg</h2>
+			<p>Bij deze Arduino opdracht was ik aan het oefenen met de verschillende mogelijkheden die beschikbaar waren voor het aansturen van de bijgeleverde ledjes die ik het aangeschafte pakket zaten. Het einddoel van deze opdracht was om het groene ledje twee keer zo snel te laten knipperen als het linker ledje. Dit heb ik mogelijk gemaakt door in de code het groene ledje in de helft van de tijd van het gele ledje uit en aan te laten gaan. hierdoor gaat het groene ledje uiteindelijk twee keer zo snel en is de opdracht succesvol uitgevoerd. Na het succesvol uitvoeren van de opdracht heb ik zelf ook nog geëxperimenteerd om de lichtjes nog sneller te laten knipperen. Na de code aangepast werkte dit ook goed, echter was het minder fijn om naar te kijken.</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 4:	Fade LED – Analog Output</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/bzANX88QV-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/4c.png"/>
+			<h2>Uitleg</h2>
+			<p>Bij deze opdracht werd het voor mij duidelijk dat ik met de Arduino meer dan alleen een lichtje aan en uit kon doen. Hierbij kwam wel een ingewikkeldere code kijken waarbij ik af en toe hulp heb moeten vragen aan mijn docent en medestudenten. Na het verbeteren van bugs die mijn lampjes op kapotte discolampen lieten lijken, werkte mijn code precies zoals ik had verwacht. Wanneer het groene ledje langzaam aan gaat, zal het gele ledje langzaam uitgaan. Dit proces wordt telkens herhaald waardoor een fade effect tussen de leds ontstaat.</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 6: Controlling a LED with a potmeter</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/63CITSGw6r4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/6c.png"/>
+			<h2>Uitleg</h2>
+			<p>Bij deze opdracht was het de bedoeling om met de potmeter de twee led lampjes aan te laten sturen. De potmeter is een draaibare knop die een bepaalde waarde naar de Arduino terugstuurt die in verband staat met de positie van de draaiknop. Uiteindelijk heb ik voor deze potmeter en led lichtjes een code geschreven waarmee het gele ledje langzaam uit gaat wanneer het groene lampje aangaat en andersom, dit wordt aangestuurd met behulp van de potmeter.</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 7: Control the LED with light</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/g6h_yLyynPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/7.png"/>
+			<h2>Uitleg</h2>
+			<p>In deze opdracht werd de lichtsensor geintroduceerd, deze sensor kan waardes sturen naar de Arduino die in verband staan met de hoeveelheid licht die de sensor opvangt. Voor deze opdracht moesten we de ledjes van helderheid laten veranderen naarmate de hoeveelheid licht die de sensor opving veranderde. In de bovenstaande video kan gezien worden hoe de ledjes gedimd worden wanneer er minder licht op de sensor komt. De code zou ook zo aangepast kunnen worden dat wanneer het donker wordt, bijvoorbeeld het licht aan gaat. Dit wordt onder andere gebruikt bij de lampen die op de openbare weg te vinden zijn.</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 8: Voltage Divider</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Ayo9-8z63j0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/8.png"/>
+			<h2>Uitleg</h2>
+			<p>In deze opdracht werd gewerkt met twee lichtsensoren, met behulp van deze zouden we gaan werken met het principe van voltage dividing. In de bovenstaande video kan gezien worden wanneer de linker sensor afgedekt wordt de waarde die doorgeven wordt aan de Arduino verhoogd, wanneer de rechter lichtsensor afgedekt wordt verlaagd deze juist. Wanneer beide sensors afgedekt zijn is de waarde gelijk aan de waarde zonder dat deze afgedekt zijn. Dit komt omdat de sensor die de waarde meet zich bevind tussen de linker en rechter sensor. Wanneer de eerste sensor afgedekt wordt komt er een groter voltage binnen omdat de sensor dan meer doorlaat. Wanneer vervolgens de rechter sensor ook afgedekt wordt verlaagd deze het voltage weer omdat er dan minder Voltage door naar de port van de Arduino die dit meet gaat.</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 9: Arduino and Processing</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ijjM6R488FU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/10qIZ5vC-c8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/9.png"/>
+			<img src="../img/code/9p.png"/>
+			<h2>Uitleg</h2>
+			<p>....</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 10: Buttons</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/t3nApcZNtMY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/10.png"/>
+			<h2>Uitleg</h2>
+			<p>....</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 11: Servomotor</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HOWeSDj0ooE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/11.png"/>
+			<h2>Uitleg</h2>
+			<p>....</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 12: Controlling the servo with inputs</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Ww_g1cqiQzg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/12.png"/>
+			<h2>Uitleg</h2>
+			<p>....</p>
+		</div>
+		<div class="border">
+			<h1>Exercise 13: Sound</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/1-V8ASm0F60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<h2>Code</h2>
+			<img src="../img/code/13.png"/>
+			<h2>Uitleg</h2>
+			<p>....</p>
+		</div>
+		
+		
+	</body>
+</html>
